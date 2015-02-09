@@ -23,7 +23,7 @@ html, body {
 	overflow: hidden;
 }
 
-.picture img {
+/*.picture img {
 	position: absolute;
 	max-width: 98%;
 	max-height: 98%;
