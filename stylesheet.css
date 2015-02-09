@@ -6,6 +6,23 @@ html, body {
 	padding: 0;
 }
 
+.wrapperIndex {
+	overflow: hidden;
+}
+
+.boxIndex {
+	float: left;
+	position: relative;
+	width: 50%;
+	padding-bottom: 37.5%;
+	
+}
+
+.pictureIndex {
+	position: absolute;
+	overflow: hidden;
+}
+
 .wrapper {
 	overflow: hidden;
 }
@@ -25,5 +42,4 @@ html, body {
 
 .picture img {
 	max-width: 100%;
-	/*max-height: 100%;*/
 }
