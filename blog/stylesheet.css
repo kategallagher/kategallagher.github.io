@@ -1,0 +1,95 @@
+body{
+	font-family: sans-serif;
+}
+
+h1, h3{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+h1{
+	float: left;
+	display: inline;
+	width: 33%;
+	font-size: 90px;
+	margin: 0;
+	letter-spacing: 0px;
+	word-spacing: 3px;
+}
+
+h3{
+	font-size: 35px;
+}
+
+nav{
+	float: left;
+	display: inline;
+	width: 62%;
+	height: 81px;
+	padding-top: 65px;
+	text-align: right;
+	padding-right: 5%;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	bottom: 0;
+	display: inline;
+}
+
+#top{
+	height: 100px;
+	border-bottom: 2px solid #000000;
+}
+
+#archive li, p, nav li{
+	font-size: 15px;
+}
+
+#archive{
+	float: left;
+	display: inline;
+	width: 25%;
+	padding-right: 8%;
+	padding-top: 0;
+}
+
+#archive ul{
+	text-decoration: none;
+}
+
+#articles{
+	float: left;
+	display: inline;
+	width: 65%;
+	padding-top: 0;
+}
+
+#content{
+	overflow: auto;
+	width: 100%;
+	margin-top: 75px;
+}
+
+footer{
+	border-top: 2px solid #000000;
+}
+
+/*section{
+	float: left;
+	display: block;
+}
+
+aside li{
+	text-decoration: none;
+}
+/*h3{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+
+}
