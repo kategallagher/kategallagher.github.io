@@ -26,6 +26,10 @@ html, body {
 	left: 2%;
 }
 
+.pictureIndex img {
+	max-height: 100%;
+}
+
 .wrapper {
 	overflow: hidden;
 }
@@ -44,5 +48,5 @@ html, body {
 }
 
 .picture img {
-	max-width: 100%;
+	max-height: 100%;
 }
