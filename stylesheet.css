@@ -7,27 +7,33 @@ html, body {
 }
 
 .wrapperIndex {
-	overflow: hidden;
+	padding: 10px;
+	text-align: center;
 }
 
 .boxIndex {
-	float: left;
+	display: inline-block;
 	position: relative;
-	width: 50%;
-	padding-bottom: 37.5%;
+	margin: 10px;
+	/* you need to specify a hard height or width here */
+	width: 300px;
+	height: 300px;
+	/* this is just here so you can see where the box boundaries are */
+	background: antiqueWhite;
 }
 
 .pictureIndex {
 	position: absolute;
-	overflow: hidden;
-	top: 2%;
-	right: 2%;
-	bottom: 2%;
-	left: 2%;
+	width: 100%;
+	/* this is advanced CSS shit right here */
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
 }
 
 .pictureIndex img {
-	max-height: 100%;
+	max-width: 100%;
 }
 
 .wrapper {
@@ -39,7 +45,7 @@ html, body {
 	position: relative;
 	width: 100%;
 	padding-bottom: 100%;
-	
+
 }
 
 .picture {
