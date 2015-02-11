@@ -1,9 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Signika:400,300);
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+.navbar li{
+	display: inline;
+	text-decoration: none;
+	/*position: fixed;*/
+}
+
+.navbar {
+	margin: 0 auto;
+	position: fixed;
 }
 
 .wrapperIndex {
@@ -38,15 +55,20 @@ html, body {
 	float: left;
 	position: relative;
 	width: 100%;
-	padding-bottom: 100%;
-	
+	height: 100vh;
 }
 
 .picture {
 	position: absolute;
-	overflow: hidden;
+	/*overflow: hidden;*/
+	max-width: 100%;
+	width: auto;
+	max-height: 100%;
+	height: auto;
 }
 
 .picture img {
-	max-height: 100%;
+	overflow: auto;
+	height: auto;
+	max-width: 100%
 }
