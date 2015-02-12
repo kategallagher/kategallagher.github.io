@@ -63,6 +63,26 @@ h1, h2, h3, p {
 	max-height: 100%;
 }
 
+.caption {
+	position: absolute;
+	top: 60%;
+	opacity: 0;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: #000ccc;
+}
+
+.boxIndex:hover .caption{
+	opacity: 1;
+	font-size: 200%;
+}
+
+.boxIndex:hover .pictureIndex img{
+	opacity: .30;
+}
+
 .box {
 	width: 75%;
 	height: auto;
@@ -85,4 +105,23 @@ h1, h2, h3, p {
 .jumbotron img {
 	max-width: 100%;
 	max-height: 75%;
+	position: relative;
+
 }
+
+.caption {
+	position: absolute;
+	top: 30%;
+	opacity: 0;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.jumbotron:hover .caption {
+	opacity: 1;
+	font-size: 200%;
+}
+
+.jumbotron:hover img {
+	opacity: .55;
