@@ -7,11 +7,6 @@ html, body {
 	font-family: Tahoma, Geneva, sans-serif;
 }
 
-h1, h2, h3, p {
-	width: 95%;
-	margin: 0 auto;
-}
-
 .navbar {
 	display: block;
 }
@@ -61,6 +56,8 @@ h1, h2, h3, p {
 
 .pictureIndex img {
 	max-height: 100%;
+	width: 100%;
+	max-width: 1300px;
 }
 
 .caption {
@@ -71,12 +68,12 @@ h1, h2, h3, p {
 	width: 100%;
 	height: 100%;
 	text-decoration: none;
-	color: #000ccc;
 }
 
 .boxIndex:hover .caption{
 	opacity: 1;
 	font-size: 200%;
+	color: #534f57;
 }
 
 .boxIndex:hover .pictureIndex img{
@@ -93,7 +90,14 @@ h1, h2, h3, p {
 }
 
 .picture img {
-	max-width: 100%;
+	width: 100%;
+	max-width: 1300px;
+	max-height: 100%;
+}
+
+.text {
+	width: 100%;
+	max-width: 1300px;
 	max-height: 100%;
 }
 
@@ -106,7 +110,6 @@ h1, h2, h3, p {
 	max-width: 100%;
 	max-height: 75%;
 	position: relative;
-
 }
 
 .caption {
@@ -125,3 +128,4 @@ h1, h2, h3, p {
 
 .jumbotron:hover img {
 	opacity: .55;
+}
